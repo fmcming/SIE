@@ -13,5 +13,7 @@ class DefectItem(BaseModel):
 
 
 class InferResponse(BaseModel):
+    image_path: str
     model_version: str
     defects: list[DefectItem]
+    duration_ms: float

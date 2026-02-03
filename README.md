@@ -24,3 +24,20 @@ Example payload:
   "model_version": "default"
 }
 ```
+
+Example response:
+
+```json
+{
+  "image_path": "/path/to/image.jpg",
+  "model_version": "default",
+  "defects": [
+    {
+      "label": "scratch",
+      "confidence": 0.01,
+      "bbox": [0.0, 0.0, 1.0, 1.0]
+    }
+  ],
+  "duration_ms": 1.23
+}
+```
