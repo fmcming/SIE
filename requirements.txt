@@ -2,7 +2,7 @@
 face_recognition==1.3.0
 opencv-python==4.8.1.78
 numpy==1.24.3
-Pillow==10.0.0
+Pillow==10.3.0
 
 # 可选依赖 (Optional Dependencies)
 # 如果需要更快的处理速度，可以安装dlib的GPU版本
