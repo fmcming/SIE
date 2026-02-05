@@ -1,0 +1,70 @@
+# Python 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 分发 / 打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 人脸编码文件 (可选择性忽略)
+# encodings/*.pkl
+
+# 识别结果图片
+recognized_*.jpg
+recognized_*.png
+result*.jpg
+result*.png
+
+# 测试图片（如果不想提交）
+# face_database/*.jpg
+# face_database/*.png
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.temp
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
