@@ -290,7 +290,7 @@ class FaceRecognitionGUI:
         # 执行识别
         pass
 
-root = tk.Root()
+root = tk.Tk()
 app = FaceRecognitionGUI(root)
 root.mainloop()
 ```
